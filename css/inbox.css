@@ -1,0 +1,41 @@
+body {
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;  
+}
+
+.main {
+    padding: 10px !important;
+    position: relative !important;
+    width: calc(100vw - 40px) !important;
+    background: #fff !important;
+    color: #666666 !important;
+    border-radius: 2px !important;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    margin-left: 20px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1) !important;
+    height: calc(100vh - 60px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.scroller {   
+    max-height: calc(100vh - 200px);
+    overflow-y: auto; 
+    overflow-x:hidden;
+}
+
+.scroller li:nth-child(even) {
+    background: #f8f9fa;
+}
+
+#offcanvasNavbar2{
+    max-width: calc(100vw- 100px) !important;
+}
